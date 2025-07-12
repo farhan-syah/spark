@@ -30,6 +30,34 @@
 
 ---
 
+## Creating the Right Environment
+
+While SPARK is designed to be simple and adaptable, certain environmental factors significantly increase the likelihood of success:
+
+### Team Readiness
+- **Willingness to experiment** - Teams open to trying a new approach for at least one quarter
+- **Communication comfort** - Members feel safe raising blockers and challenges
+- **Learning orientation** - Focus on continuous improvement over blame
+
+### Leadership Support
+- **Servant leadership mindset** - Leaders exist to remove obstacles and enable team success
+- **Protection from distractions** - Shielding teams from excessive context switching and scope creep
+- **Outcome focus** - Measuring success by customer impact rather than activity levels
+
+### Operational Conditions
+- **Product Owner availability** - Someone who can dedicate sufficient time to prioritization and stakeholder management
+- **Tolerance for productive discomfort** - Understanding that WIP limits and minimal planning may feel uncomfortable initially
+- **Commitment to transparency** - Making work, dependencies, and blockers visible to everyone
+
+### Cultural Shifts to Expect
+- **From estimation to measurement** - Using actual cycle time instead of story points
+- **From push to pull** - Team members taking work when ready instead of having it assigned
+- **From feature focus to outcome focus** - Celebrating learning and course corrections as much as completed features
+
+These aren't rigid requirements, but teams with these characteristics tend to adopt SPARK more successfully and see faster results.
+
+---
+
 ## Workshop Materials
 
 ### Exercise 1: Calculate Your Ceremony Tax

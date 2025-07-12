@@ -70,6 +70,8 @@ A simple 4-column visual board:
 - Items must link to a Key Result
 - "Done" means shipped to real users
 
+**Optional:** Teams may add columns (Ready), swimlanes, or visual indicators as needed.
+
 ### 3. Work Items
 
 Each work item contains:
@@ -228,7 +230,12 @@ When third-party services break:
 ## FAQ
 
 **Q: What about dependencies?**
-A: Talk to each other. Use explicit communication for coordination.
+A: Use a simple escalation pattern:
+- **Level 1 (Team)**: Direct conversation between team members
+- **Level 2 (Visible)**: Create a dependency card on boards to track cross-team work  
+- **Level 3 (Escalated)**: Product Owner/leader actively manages external blockers with daily updates
+
+Make dependencies visible early and have clear ownership for resolution.
 
 **Q: How do we estimate?**
 A: You don't. Break work small enough (1 week maximum) that estimation is unnecessary.

@@ -101,6 +101,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ### For New Teams
 - [Framework Guide](SPARK.md) - Complete guide (10-15 minute read)
+- [Creating the Right Environment](guides/Teaching-Guide.md#creating-the-right-environment) - Success factors
 - [From Scrum to SPARK](guides/Teaching-Guide.md#from-scrum-to-spark) - Transition guide
 - [Visual Guide](guides/Visual-Guide.md) - Diagrams and examples
 
