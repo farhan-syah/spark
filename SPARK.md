@@ -65,9 +65,9 @@ A simple 4-column visual board:
 └─────────────┴──────────────┴──────────────┴─────────────┘
 ```
 
-**Rules:**
-- Each person can only have 1 item "In Progress" (WIP limit = 1)
-- Items must link to a Key Result
+**Guidelines:**
+- WIP limit of 1 per person (adjustable when justified)
+- Items should link to a Key Result
 - "Done" means shipped to real users
 
 **Optional:** Teams may add columns (Ready), swimlanes, or visual indicators as needed.
@@ -137,7 +137,7 @@ Week 4: You're now running SPARK!
 
 ### From Kanban
 Day 1: Add OKRs to your board
-Day 2: Implement WIP limit of 1
+Day 2: Apply WIP limit of 1 (adjustable when justified)
 Day 3: Add Friday retrospectives
 Done: You're running SPARK!
 
@@ -238,16 +238,22 @@ A: Use a simple escalation pattern:
 Make dependencies visible early and have clear ownership for resolution.
 
 **Q: How do we estimate?**
-A: You don't. Break work small enough (1 week maximum) that estimation is unnecessary.
+A: You don't. Break work small enough (1 week maximum) that estimation is unnecessary. This decomposition skill requires practice but is essential for SPARK success.
 
 **Q: What about roadmaps?**
 A: OKRs are your roadmap. Trust emergence for specific features.
+
+**Q: Can we keep 2-week release cycles?**
+A: Yes. SPARK's small work breakdown makes this easy - work flows continuously but releases are batched. Teams ship when features are ready within the cycle.
 
 **Q: Can this scale?**
 A: Yes. Works for 1-10 people as-is. Pod structure handles 10-50 people.
 
 **Q: What tools do we need?**
 A: Any board works - Trello, Notion, Linear, sticky notes, whiteboard.
+
+**Q: What skills does our team need?**
+A: Work decomposition (breaking tasks into <1 week pieces) and an effective Product Owner who can prioritize, remove blockers, and communicate strategy. These skills develop with practice.
 
 **Q: How do we handle multiple priorities?**
 A: OKRs force prioritization. If everything is urgent, nothing is urgent.
@@ -267,7 +273,7 @@ A: Track it like features. Dedicate capacity to debt reduction during retros.
 ### Tomorrow  
 1. Define current quarter OKRs with your team
 2. Move existing work into SPARK backlog format
-3. Implement WIP limit of 1 per person
+3. Apply WIP limit of 1 per person (adjustable when justified)
 
 ### This Week
 1. Start Monday/Wednesday/Friday ceremonies

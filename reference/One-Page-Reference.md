@@ -48,7 +48,7 @@
 - [ ] Set up 4-column board
 - [ ] Define quarterly OKRs (1-2 objectives, 3-5 KRs each)
 - [ ] Fill backlog with KR-linked items
-- [ ] Implement WIP limit of 1
+- [ ] Apply WIP limit of 1 (adjustable when justified)
 - [ ] Schedule weekly rituals
 - [ ] Start pulling work!
 

@@ -21,7 +21,7 @@ Traditional project management frameworks assume predictable environments. **SPA
 
 **Read [SPARK.md](SPARK.md)** - Everything you need to know in 10-15 minutes.
 
-**TL;DR:** 4-column board + WIP limit of 1 + quarterly OKRs + 3 weekly meetings (75 minutes total).
+**TL;DR:** 4-column board + WIP limit of 1 (adjustable) + quarterly OKRs + 3 weekly meetings (75 minutes total).
 
 ## Core Principles
 
@@ -101,6 +101,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ### For New Teams
 - [Framework Guide](SPARK.md) - Complete guide (10-15 minute read)
+- [FAQ](SPARK.md#faq) - Common questions about skills, release cycles, and implementation
 - [Creating the Right Environment](guides/Teaching-Guide.md#creating-the-right-environment) - Success factors
 - [From Scrum to SPARK](guides/Teaching-Guide.md#from-scrum-to-spark) - Transition guide
 - [Visual Guide](guides/Visual-Guide.md) - Diagrams and examples
