@@ -243,7 +243,7 @@ A: You don't. Break work small enough (1 week maximum) that estimation is unnece
 **Q: What about roadmaps?**
 A: OKRs are your roadmap. Trust emergence for specific features.
 
-**Q: Can we keep 2-week release cycles?**
+**Q: Can we keep using release cycles?**
 A: Yes. SPARK's small work breakdown makes this easy - work flows continuously but releases are batched. Teams ship when features are ready within the cycle.
 
 **Q: Can this scale?**
