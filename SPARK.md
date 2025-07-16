@@ -72,6 +72,31 @@ A simple 4-column visual board:
 
 **Optional:** Teams may add columns (Ready), swimlanes, or visual indicators as needed.
 
+#### Proposal Board
+
+A companion board for team suggestions:
+
+```
+┌─────────────┬──────────────┬──────────────┐
+│  PROPOSED   │    URGENT    │  REVIEWING   │
+├─────────────┼──────────────┼──────────────┤
+│ Bug fix #1  │ Server down  │ Feature idea │
+│ @alice      │ @bob         │ @team        │
+│ KR2 impact │ IMMEDIATE    │ Future OKR   │
+└─────────────┴──────────────┴──────────────┘
+```
+
+**Flow:**
+- Team members add proposals anytime
+- Urgent items reviewed immediately by Product Owner
+- Regular proposals reviewed during Friday planning
+- Approved items move to main backlog
+
+**Guidelines:**
+- Include OKR impact in proposal
+- Product Owner maintains final backlog control
+- Proposals expire after 2 weeks if not addressed
+
 ### 3. Work Items
 
 Each work item contains:
@@ -93,6 +118,7 @@ Each work item contains:
 **Friday (45 min)**
 - Retrospective: What did we learn?
 - Metrics review: Are we hitting our KRs?
+- Proposal review: What should we work on next week?
 - Process tune: One thing to try next week
 
 **Total:** < 2 hours/week of meetings
@@ -108,6 +134,7 @@ Each work item contains:
 - Pull work when ready
 - Ship to production
 - Share learnings
+- Propose work items via proposal board
 
 **No other roles required.**
 
