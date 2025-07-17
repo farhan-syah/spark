@@ -66,9 +66,17 @@ A simple 4-column visual board:
 ```
 
 **Guidelines:**
-- WIP limit of 1 per person (adjustable when justified)
+- WIP limit of 1 per person in "In Progress" column only
+- Once task moves to "Review", person can immediately pull next task
 - Items should link to a Key Result
 - "Done" means shipped to real users
+
+**Task Flow and Ownership:**
+- Single owner while in "In Progress"
+- Owner can unassign themselves at any time
+- Tasks rejected from Review return to Backlog with enhanced context
+- Any team member can pull any Backlog task (with accumulated context)
+- Context enables smooth handoffs between team members
 
 **Optional:** Teams may add columns (Ready), swimlanes, or visual indicators as needed.
 
@@ -97,6 +105,14 @@ A companion board for team suggestions:
 - Product Owner maintains final backlog control
 - Proposals expire after 2 weeks if not addressed
 
+**Common Team Patterns:**
+- Some teams limit active proposals per person (e.g., 3 max)
+- Some teams add cool-down periods for resubmitted proposals
+- Some teams do weekly proposal cleanup during retro
+- Some teams run periodic "proposal quality reviews" if volume becomes unmanageable
+- Some teams distinguish between "quick wins" and "exploration" proposals
+- Adapt based on your team's proposal volume and culture
+
 ### 3. Work Items
 
 Each work item contains:
@@ -104,6 +120,42 @@ Each work item contains:
 - **Why:** Which Key Result it impacts
 - **How:** Acceptance criteria
 - **Who:** Single owner (when pulled)
+
+**Optional Context (for AI-assisted development):**
+- **Context:** Technical patterns, business constraints, team decisions
+- **Relationships:** Dependencies, blockers, related work
+- **Guidance:** Implementation approaches, safety considerations
+
+**Context Examples:**
+- **Technical:** "Uses React hooks", "Breaking change", "Requires DB migration"  
+- **Business:** "Affects premium users", "Legal compliance required"
+- **Team:** "Follow auth patterns", "Pair with Alice on security review"
+
+**Context Guidelines:**
+- Keep context concise - aim for 1-3 bullet points
+- Focus on information that prevents the next person from making mistakes
+- Avoid essays - use keywords and short phrases
+- Ask: "What would someone pulling this work need to know?"
+
+*For analog teams: These can be represented with colored dots, corner icons, or mini-cards rather than full text.*
+
+*Note: Context fields are completely optional and don't affect core SPARK functionality.*
+
+### SPARK's Core Power: Context Preservation
+
+When tasks cycle through In Progress → Review → Backlog (due to rejection), they accumulate:
+- Technical context from previous attempts
+- Business insights from review feedback  
+- Implementation approaches that were tried
+- Blockers encountered and resolved
+
+This means ANY team member can pick up ANY task and understand:
+- What's been tried before
+- Why previous approaches didn't work
+- What the current status and next steps are
+- Technical and business constraints discovered
+
+**Result**: No work is ever "lost" and knowledge compounds across iterations.
 
 ### 4. The SPARK Week
 
@@ -120,6 +172,13 @@ Each work item contains:
 - Metrics review: Are we hitting our KRs?
 - Proposal review: What should we work on next week?
 - Process tune: One thing to try next week
+
+**Optional AI-Enhanced Learning:**
+- Pattern analysis: What patterns emerge from completed work?
+- Context insights: How can better context prevent future issues?
+- Relationship mapping: Which work items commonly connect?
+
+*Note: AI enhancements are optional and don't change retro duration or core process.*
 
 **Total:** < 2 hours/week of meetings
 
@@ -154,6 +213,29 @@ Each work item contains:
 
 ---
 
+## Recognition and Rewards
+
+**Flow-Based Recognition:**
+- Items successfully pulled and completed per week
+- Quality: tasks shipped without rework cycles
+- Learning: context and insights contributed during task work
+- Collaboration: helping others understand task context
+
+**Recognition Metrics:**
+- **Throughput**: Consistent task completion velocity
+- **Quality**: Low rejection/rework rates
+- **Knowledge**: Rich context documentation
+- **Teamwork**: Cross-task collaboration and knowledge sharing
+
+**Recognition Patterns:**
+- Weekly acknowledgments during Friday retrospectives
+- Peer recognition for context quality and knowledge sharing
+- Celebration of customer impact when KRs advance
+
+*Focus: Sustainable contribution patterns that improve team flow and knowledge.*
+
+---
+
 ## Transitioning to SPARK
 
 ### From Scrum
@@ -164,7 +246,7 @@ Week 4: You're now running SPARK!
 
 ### From Kanban
 Day 1: Add OKRs to your board
-Day 2: Apply WIP limit of 1 (adjustable when justified)
+Day 2: Apply WIP limit of 1 in "In Progress" column
 Day 3: Add Friday retrospectives
 Done: You're running SPARK!
 
@@ -288,6 +370,9 @@ A: OKRs force prioritization. If everything is urgent, nothing is urgent.
 **Q: What about technical debt?**
 A: Track it like features. Dedicate capacity to debt reduction during retros.
 
+**Q: Should we use the AI enhancements?**
+A: Only if they add value to your team. The context fields help human developers as much as AI agents - use them if better documentation and relationship tracking would reduce your rework. Consider starting with Level 0 (pure SPARK) and experimenting gradually. Many successful teams ignore AI features entirely and focus on core SPARK principles. Choose what fits your team's needs and comfort level.
+
 ---
 
 ## Get Started
@@ -318,10 +403,40 @@ A: Track it like features. Dedicate capacity to debt reduction during retros.
 ## Advanced Considerations
 
 ### For AI-Assisted Development
+
+**Process Guidelines:**
 - Write specifications before AI generates code
 - Declare allowed/forbidden dependencies explicitly
 - Review AI output for unexpected coupling
 - Use progressive enhancement vs. big-bang generation
+
+**Context Enhancement (Optional):**
+- Add technical context to work items (tech stack, patterns, constraints)
+- Document team decisions and architectural patterns
+- Track relationships between work items
+- Include business context and user impact
+- Preserve implementation guidance for future reference
+
+**Progressive Adoption:**
+- **Level 0**: Use core SPARK without AI enhancements
+- **Level 1**: Add context fields to selected work items
+- **Level 2**: Include AI insights in Friday retrospectives
+- **Level 3**: Full context capture and AI integration
+
+**Implementation Examples:**
+- **Analog teams**: Colored dots, simple icons, or corner abbreviations
+- **Digital teams**: Custom fields, tags, or structured descriptions
+- **Hybrid teams**: Mix of physical and digital context tracking
+- Choose what works for your team's tools and culture
+
+**AI Tool Considerations:**
+- Consider training AI tools on your team's specific context
+- Teams using AI often find local fine-tuning or team-specific prompts work better than generic tools
+- Be aware that generic AI may not understand your domain, constraints, or team patterns
+- Teams often find human validation of AI suggestions valuable
+- Some teams disable AI features entirely - this is perfectly fine
+
+*Context fields are completely optional - teams can ignore all AI enhancements while maintaining full SPARK functionality.*
 
 ### For Remote Teams
 - Use async communication for check-ins
