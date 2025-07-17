@@ -15,13 +15,14 @@ Traditional project management frameworks assume predictable environments. **SPA
 - **Minimal meeting overhead** (less than 2 hours/week)
 - **Continuous flow** instead of batched sprints
 - **Pull-based work** instead of assignment-heavy planning
+- **Context preservation** - Knowledge compounds across task iterations
 - **Simple scaling** from 1-50 people with pod structure
 
 ## Quick Start
 
 **Read [SPARK.md](SPARK.md)** - Everything you need to know in 10-15 minutes.
 
-**TL;DR:** 4-column board + WIP limit of 1 (adjustable) + quarterly OKRs + 3 weekly meetings (75 minutes total).
+**TL;DR:** 4-column board + WIP limit of 1 in Progress column + quarterly OKRs + 3 weekly meetings (75 minutes total).
 
 ## Core Principles
 
@@ -36,85 +37,50 @@ Traditional project management frameworks assume predictable environments. **SPA
 ### vs. Scrum
 - **Continuous flow** instead of 2-week sprints
 - **Pull-based work** instead of sprint planning
+- **Context preservation** - Knowledge accumulates across iterations
 - **Async ceremonies** instead of daily standups
-- **Simple disruption handling** built into the framework
 
 ### vs. Kanban
 - **OKRs provide direction** instead of just visualizing flow
 - **WIP limits enforced** to prevent overcommitment
 - **Built-in learning** through weekly retrospectives
-- **Guidance for common problems** included
+- **Optional AI development support** (Level 0-3 adoption)
 
-### vs. Shape Up
-- **Faster cycles** (continuous vs 6-week cycles)
-- **Works for small teams** (1-10 people primarily)
-- **Simpler onboarding** (learn in 1 hour)
-- **Less overhead** (no circuit breakers, betting tables, etc.)
+## Key Features
 
-## Designed for Common Startup Challenges
+### SPARK's Core Power: Context Preservation
+When tasks cycle through Review → Backlog (due to rejection), they accumulate technical context, business insights, and implementation approaches. This means ANY team member can pick up ANY task with full understanding of what's been tried and why.
 
-SPARK includes guidance for handling typical disruptions:
+### Optional AI Development Support
+- **Level 0**: Use core SPARK without AI enhancements
+- **Level 1-3**: Progressive adoption of AI-assisted development features
+- All AI features remain completely optional - framework works perfectly without them
+- See [SPARK.md#advanced-considerations](SPARK.md#advanced-considerations) for details
 
-- **Direction changes** - How to pivot without losing momentum
-- **Customer emergencies** - Balancing urgent issues with planned work
-- **Knowledge loss** - When key team members leave
-- **External dependencies** - Managing third-party service issues
-- **Scaling pressure** - Growing the team without losing velocity
-
-The framework provides structured approaches that maintain team focus while addressing these challenges.
-
-## Documentation Structure
-
-### Core Documents
-- **[SPARK.md](SPARK.md)** - Complete framework guide (everything you need)
-- **[One-Page-Reference.md](reference/One-Page-Reference.md)** - Daily cheat sheet
-
-### Crisis Protocols
-- **[protocols/](protocols/)** - Detailed response procedures for each crisis type
-- **[guides/](guides/)** - Teaching materials and transition guides
-- **[reference/](reference/)** - Quick reference materials
-
-### Getting Started Path
-1. Read [SPARK.md](SPARK.md) (10-15 minutes)
-2. Set up your first board
-3. Try SPARK for 4 weeks
-4. Explore additional protocols as needed
-
-## Community & Support
-
-### Get Help
-- 📖 Read the [Framework Guide](SPARK.md)
-- 📋 Check the [One-Page Reference](reference/One-Page-Reference.md)
-- 💬 Join discussions in [Issues](../../issues)
-- 🤝 See [Contributing Guidelines](CONTRIBUTING.md)
-
-### Contributing
-SPARK is community-driven. We welcome:
-- Experience reports from teams trying SPARK
-- Improvements based on real-world usage
-- Templates and examples for different contexts
-- Documentation improvements
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+### Recognition System
+Flow-based recognition focusing on throughput, quality, learning contributions, and collaboration. See [SPARK.md#recognition-and-rewards](SPARK.md#recognition-and-rewards).
 
 ## Quick Links
 
-### For New Teams
-- [Framework Guide](SPARK.md) - Complete guide (10-15 minute read)
-- [FAQ](SPARK.md#faq) - Common questions about skills, release cycles, and implementation
-- [Creating the Right Environment](guides/Teaching-Guide.md#creating-the-right-environment) - Success factors
-- [From Scrum to SPARK](guides/Teaching-Guide.md#from-scrum-to-spark) - Transition guide
+### Essential Reading
+- **[SPARK.md](SPARK.md)** - Complete framework guide (10-15 minute read)
+- **[One-Page Reference](reference/One-Page-Reference.md)** - Daily cheat sheet
+- **[FAQ](SPARK.md#faq)** - Common questions and implementation guidance
+
+### Getting Started
 - [Visual Guide](guides/Visual-Guide.md) - Diagrams and examples
+- [Teaching Guide](guides/Teaching-Guide.md) - Transition from other frameworks
+- [Transitioning to SPARK](SPARK.md#transitioning-to-spark) - Week-by-week guides
 
-### For Experienced Teams
-- [Advanced Considerations](SPARK.md#advanced-considerations) - AI development, remote teams, compliance
-- [Pod Structure](SPARK.md#scaling-beyond-10-people) - Scaling beyond 10 people  
-- [Crisis Protocols](protocols/) - Handling disruptions
+### Advanced Features
+- [AI Development Support](SPARK.md#advanced-considerations) - Optional AI-assisted features
+- [Pod Structure](SPARK.md#scaling-beyond-10-people) - Scaling beyond 10 people
+- [Crisis Protocols](protocols/) - Handling startup disruptions
+- [Recognition System](SPARK.md#recognition-and-rewards) - Flow-based team recognition
 
-### For Leaders
-- [Handling Disruptions](SPARK.md#handling-disruptions) - Common startup challenges
-- [Metrics That Matter](SPARK.md#metrics-that-matter) - What to measure
-- [Common Patterns](SPARK.md#common-patterns--solutions) - Problem-solving guide
+### Community
+- [Contributing](CONTRIBUTING.md) - How to improve SPARK
+- [Issues](../../issues) - Discussions and support
 
 ## License
 
