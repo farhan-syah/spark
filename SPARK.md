@@ -25,6 +25,50 @@ SPARK (Swift Product Acceleration through Rapid Knowledge) is a lightweight proj
 
 ---
 
+## Workspace Architecture Principle
+
+**Core Rule: One Workspace = One Board = One Objective**
+
+Each SPARK workspace contains exactly one board focused on a single Objective (OKR). This prevents the organizational chaos common in tools like Trello where one workspace accumulates multiple boards with unclear ownership and conflicting priorities.
+
+### Why This Matters
+
+**Prevents "Board Proliferation":**
+- No confusion about which board to use
+- Clear ownership of each objective
+- Simple mental model for team members
+
+**Enables Multi-Team Organizations:**
+- Growth Team Workspace → OKR: Acquire 1000 new customers
+- Retention Team Workspace → OKR: Achieve 95% user retention  
+- Platform Team Workspace → OKR: 99.9% system uptime
+
+**Supports Cross-Team Participation:**
+- Users can join multiple workspaces as needed
+- Each workspace maintains its own focused objective
+- Clear context switching between different team goals
+
+### Implementation Examples
+
+**✅ Good Organization:**
+- **Company**: TechCorp (multiple workspaces)
+  - **Growth Workspace**: One board, OKR: Customer acquisition
+  - **Product Workspace**: One board, OKR: User engagement
+  - **Platform Workspace**: One board, OKR: System reliability
+
+**❌ Avoid This:**
+- **Company**: TechCorp (single workspace)
+  - Multiple boards: Growth Board, Product Board, Platform Board
+  - Competing priorities and unclear focus
+
+### Scaling Guidance
+
+- **1-10 people**: Single workspace with one objective
+- **10+ people**: Multiple workspaces (pod structure), each with focused objective
+- **Cross-workspace coordination**: Pod leads sync weekly, but each workspace maintains independent focus
+
+---
+
 ## The SPARK System
 
 ### 1. Objectives & Key Results (OKRs)
@@ -279,26 +323,30 @@ Month 4: Full SPARK implementation
 
 ## Scaling Beyond 10 People
 
-When teams grow beyond 10 people, use a pod structure:
+When teams grow beyond 10 people, use a pod structure with **separate workspaces**:
 
-**Pod Organization:**
+**Pod Organization (Multiple Workspaces):**
 ```
-Pod Alpha (5 people):
+Growth Workspace (Pod Alpha - 5 people):
 • OKR: Customer acquisition
 • Focus: Growth features
 • Lead: Alice
+• One board focused on acquisition
 
-Pod Beta (5 people):  
+Retention Workspace (Pod Beta - 5 people):  
 • OKR: Customer retention
 • Focus: Core platform
 • Lead: Bob
+• One board focused on retention
 
-Cross-Pod Coordination:
+Cross-Workspace Coordination:
 • Weekly pod lead sync (30 min)
 • Monthly all-hands retro (90 min)
 • Shared technical standards
-• Inter-pod dependency management
+• Inter-workspace dependency management
 ```
+
+**Key Principle**: Each pod = separate workspace with its own board and OKR. This maintains the "One Workspace = One Board = One Objective" architecture while enabling organizational scaling.
 
 ---
 

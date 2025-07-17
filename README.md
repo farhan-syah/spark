@@ -16,6 +16,7 @@ Traditional project management frameworks assume predictable environments. **SPA
 - **Continuous flow** instead of batched sprints
 - **Pull-based work** instead of assignment-heavy planning
 - **Context preservation** - Knowledge compounds across task iterations
+- **Clear workspace architecture** - One workspace, one board, one objective prevents organizational chaos
 - **Simple scaling** from 1-50 people with pod structure
 
 ## Quick Start
@@ -64,6 +65,7 @@ Flow-based recognition focusing on throughput, quality, learning contributions, 
 
 ### Essential Reading
 - **[SPARK.md](SPARK.md)** - Complete framework guide (10-15 minute read)
+- **[Workspace Architecture](SPARK.md#workspace-architecture-principle)** - One workspace, one board, one objective
 - **[One-Page Reference](reference/One-Page-Reference.md)** - Daily cheat sheet
 - **[FAQ](SPARK.md#faq)** - Common questions and implementation guidance
 
