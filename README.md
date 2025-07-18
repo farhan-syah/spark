@@ -2,7 +2,7 @@
 
 > Swift Product Acceleration through Rapid Knowledge
 
-A lightweight project management framework for solo developers and high-velocity teams (1-10 people) that need to move fast while maintaining quality.
+A lightweight project management framework for building high-performing teams. It addresses common failure modes in growing organizations—such as decreased velocity, conflicting priorities, and excessive process overhead—by providing a simple, teachable system.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.0.0-green.svg)](SPARK.md)
@@ -10,20 +10,24 @@ A lightweight project management framework for solo developers and high-velocity
 
 ## Why SPARK?
 
-Traditional project management frameworks assume predictable environments. **SPARK is designed for fast-moving teams.**
+By combining principles from Agile, Lean, and modern product thinking, SPARK delivers three key outcomes:
 
+- **Clarity & Focus** - Eliminates ambiguity by ensuring every team is focused on a single, measurable objective
+- **Sustainable Speed** - Creates a system of continuous flow, preventing burnout and waste
+- **Scalable Autonomy** - Provides a clear model for organizational growth that preserves the speed and agility of a small team
+
+**Key Features:**
 - **Minimal meeting overhead** (less than 2 hours/week)
-- **Continuous flow** instead of batched sprints
-- **Pull-based work** instead of assignment-heavy planning
+- **Forecasting without estimation** - Lightweight planning that satisfies business needs
 - **Context preservation** - Knowledge compounds across task iterations
-- **Clear workspace architecture** - One workspace, one board, one objective prevents organizational chaos
-- **Smart scaling** - 5-10 people per pod, scale by adding independent pods (not people)
+- **Cross-pod dependencies** - Structured approach to managing team interdependencies
+- **Smart scaling** - Pod structure that scales by replication, not complexity
 
 ## Quick Start
 
 **Read [SPARK.md](SPARK.md)** - Everything you need to know in 10-15 minutes.
 
-**TL;DR:** 4-column board + WIP limit of 1 in Progress column + quarterly OKRs + 3 weekly meetings (75 minutes total).
+**TL;DR:** 4-column board + WIP limit of 1 in Progress column + quarterly OKRs + themes roadmap + 3 weekly meetings (75 minutes total).
 
 ## Core Principles
 
@@ -72,8 +76,10 @@ Flow-based recognition focusing on throughput, quality, learning contributions, 
 - [Is SPARK Working?](SPARK.md#is-spark-working-for-you) - Diagnostic checklist and health check
 
 ### Advanced Features
+- [Forecasting Without Estimation](SPARK.md#forecasting-without-estimation) - Themes roadmap and lightweight forecasting
+- [Cross-Pod Dependencies](SPARK.md#managing-cross-pod-dependencies) - Structured approach to team interdependencies
 - [AI Development Support](SPARK.md#advanced-considerations) - Optional AI-assisted features
-- [Pod Structure](SPARK.md#scaling-beyond-10-people) - Scaling beyond 10 people
+- [Pod Structure](SPARK.md#scaling-beyond-10-people) - Scaling by replication, not complexity
 - [When to Split Your Pod](SPARK.md#when-to-split-your-pod) - Clear signals and step-by-step process
 - [Troubleshooting Guide](SPARK.md#troubleshooting-common-issues) - Common problems and solutions
 - [Crisis Protocols](protocols/) - Handling startup disruptions
