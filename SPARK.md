@@ -8,9 +8,17 @@
 
 ## What is SPARK?
 
-SPARK (Swift Product Acceleration through Rapid Knowledge) is a project management framework built on a simple, powerful idea: small, autonomous teams are the fundamental unit of speed and quality.
+SPARK (Swift Product Acceleration through Rapid Knowledge) is a lightweight project management framework for building high-performing teams. It addresses common failure modes seen in growing organizations—such as decreased velocity, conflicting priorities, and excessive process overhead—by providing a simple, teachable system.
 
-It is designed around "pods"—independent teams of 1-10 people focused on a single objective. Whether you are a solo founder, a small startup, or a large organization, SPARK provides a system for achieving maximum impact with minimum overhead. It combines principles from Agile, Lean, and modern product thinking into a teachable framework that scales by adding more pods, not by adding complexity to existing ones.
+By combining principles from Agile, Lean, and modern product thinking, SPARK delivers three key outcomes:
+
+**Clarity & Focus:** It eliminates ambiguity by ensuring every team is focused on a single, measurable objective.
+
+**Sustainable Speed:** It creates a system of continuous flow, preventing the burnout and waste associated with traditional batch-based processes.
+
+**Scalable Autonomy:** It provides a clear model for organizational growth that preserves the speed and agility of a small team.
+
+At its core, SPARK is a framework for achieving maximum impact with minimum ceremony, enabling teams to do their best work.
 
 ### Core Philosophy
 > "Sustainable speed beats temporary bursts of work. Flow beats batch. Outcomes beat outputs."
