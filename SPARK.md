@@ -8,7 +8,9 @@
 
 ## What is SPARK?
 
-SPARK (Swift Product Acceleration through Rapid Knowledge) is a lightweight project management framework designed for teams of 1-10 people who need to move fast while maintaining quality. For larger organizations, SPARK uses a pod structure where each pod operates as an independent 5-10 person team. It combines principles from Agile, Lean, and modern product thinking into a simple system designed for maximum impact with minimum overhead.
+SPARK (Swift Product Acceleration through Rapid Knowledge) is a project management framework built on a simple, powerful idea: small, autonomous teams are the fundamental unit of speed and quality.
+
+It is designed around "pods"—independent teams of 1-10 people focused on a single objective. Whether you are a solo founder, a small startup, or a large organization, SPARK provides a system for achieving maximum impact with minimum overhead. It combines principles from Agile, Lean, and modern product thinking into a teachable framework that scales by adding more pods, not by adding complexity to existing ones.
 
 ### Core Philosophy
 > "Sustainable speed beats temporary bursts of work. Flow beats batch. Outcomes beat outputs."
@@ -660,7 +662,12 @@ A: SPARK replaces a traditional feature-based roadmap with a more flexible two-p
 A: Yes. SPARK's small work breakdown makes this easy - work flows continuously but releases are batched. Teams ship when features are ready within the cycle.
 
 **Q: Can this scale?**
-A: Yes. Works for 1-10 people as-is. Pod structure handles 10-50 people.
+A: Yes. Scaling is a core design principle of SPARK, not an afterthought. It scales by replicating small, high-performance teams ("pods"), not by creating complex layers of management.
+
+**1-10 People:** A single pod operates with maximum simplicity.
+**10-50+ People:** The organization scales by adding new, autonomous pods, each with its own focused objective. The "Workspace Architecture" and "Managing Cross-Pod Dependencies" sections detail exactly how this works.
+
+The framework is intentionally designed to prevent the communication overhead and loss of focus that typically slow down growing teams.
 
 **Q: What tools do we need?**
 A: Any board works - digital kanban tools, sticky notes, whiteboard.
