@@ -8,7 +8,7 @@
 
 ## What is SPARK?
 
-SPARK (Swift Product Acceleration through Rapid Knowledge) is a lightweight project management framework designed for teams of 1-30 people who need to move fast while maintaining quality. It combines principles from Agile, Lean, and modern product thinking into a simple, teachable system.
+SPARK (Swift Product Acceleration through Rapid Knowledge) is a lightweight project management framework designed for teams of 1-10 people who need to move fast while maintaining quality. For larger organizations, SPARK uses a pod structure where each pod operates as an independent 5-10 person team. It combines principles from Agile, Lean, and modern product thinking into a simple, teachable system.
 
 ### Core Philosophy
 > "Sustainable speed beats temporary sprints. Flow beats batch. Outcomes beat outputs."
@@ -27,9 +27,11 @@ SPARK (Swift Product Acceleration through Rapid Knowledge) is a lightweight proj
 
 ## Workspace Architecture Principle
 
-**Core Rule: One Workspace = One Board = One Objective**
+> **🎯 CORE RULE: One Workspace = One Board = One Objective**
+> 
+> This is SPARK's fundamental scaling principle. Each workspace contains exactly one board focused on a single Objective (OKR). To scale, add new workspaces (pods), never expand existing ones.
 
-Each SPARK workspace contains exactly one board focused on a single Objective (OKR). This prevents the organizational chaos common in tools like Trello where one workspace accumulates multiple boards with unclear ownership and conflicting priorities.
+Each SPARK workspace contains exactly one board focused on a single Objective (OKR). This prevents the organizational chaos common when one workspace accumulates multiple boards with unclear ownership and conflicting priorities.
 
 ### Why This Matters
 
@@ -304,6 +306,18 @@ Month 4: Full SPARK implementation
 
 ## Common Patterns & Solutions
 
+### Anti-Patterns to Avoid
+
+| Anti-Pattern | Why It Hurts | Solution |
+|-------------|-------------|----------|
+| **Workspace >10 people** | Dilutes focus, slows decisions | Split into multiple workspaces |
+| **Multiple objectives per workspace** | Creates confusion, context overlap | One workspace = one objective |
+| **Scaling by adding people** | Causes friction, meeting overhead | Add new pods, not more people |
+| **Centralized bottlenecks** | Defeats fast-flow benefits | Maintain pod autonomy |
+| **Multiple boards per workspace** | Unclear ownership, competing priorities | One workspace = one board |
+
+### Solutions to Common Patterns
+
 ### Pattern: Too Many Blockers
 **Solution:** Product Owner dedicates 50% time to unblocking
 
@@ -407,7 +421,7 @@ A: Yes. SPARK's small work breakdown makes this easy - work flows continuously b
 A: Yes. Works for 1-10 people as-is. Pod structure handles 10-50 people.
 
 **Q: What tools do we need?**
-A: Any board works - Trello, Notion, Linear, sticky notes, whiteboard.
+A: Any board works - digital kanban tools, sticky notes, whiteboard.
 
 **Q: What skills does our team need?**
 A: Work decomposition (breaking tasks into <1 week pieces) and an effective Product Owner who can prioritize, remove blockers, and communicate strategy. These skills develop with practice.
