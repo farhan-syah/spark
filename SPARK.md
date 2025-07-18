@@ -8,10 +8,10 @@
 
 ## What is SPARK?
 
-SPARK (Swift Product Acceleration through Rapid Knowledge) is a lightweight project management framework designed for teams of 1-10 people who need to move fast while maintaining quality. For larger organizations, SPARK uses a pod structure where each pod operates as an independent 5-10 person team. It combines principles from Agile, Lean, and modern product thinking into a simple, teachable system.
+SPARK (Swift Product Acceleration through Rapid Knowledge) is a lightweight project management framework designed for teams of 1-10 people who need to move fast while maintaining quality. For larger organizations, SPARK uses a pod structure where each pod operates as an independent 5-10 person team. It combines principles from Agile, Lean, and modern product thinking into a simple system designed for maximum impact with minimum overhead.
 
 ### Core Philosophy
-> "Sustainable speed beats temporary sprints. Flow beats batch. Outcomes beat outputs."
+> "Sustainable speed beats temporary bursts of work. Flow beats batch. Outcomes beat outputs."
 
 ---
 
@@ -22,6 +22,64 @@ SPARK (Swift Product Acceleration through Rapid Knowledge) is a lightweight proj
 3. **Amplify Learning** - Every week, the team gets smarter
 4. **Radically Minimize Waste** - Eliminate non-value-adding activities
 5. **Keep It Simple** - The framework must be teachable in one hour
+
+---
+
+## Principles Over Rules
+
+> **🎯 SPARK is for people who seek continuous improvement and learning**
+
+When rules conflict with principles, **principles win**. The goal is customer value, team learning, and sustainable flow - not perfect rule compliance.
+
+### How Teams Grow with SPARK
+
+**New Teams:**
+- Start with the basic rules - they provide structure and safety
+- Focus on building habits: pulling work, preserving context, linking to OKRs
+- Learn through practice and weekly retrospectives
+
+**Developing Teams:**
+- Begin to understand the "why" behind each rule
+- Start recognizing when rigid rule-following hurts the principles
+- Experiment with adaptations during retrospectives
+
+**Experienced Teams:**
+- Adapt rules intelligently while always honoring principles
+- Handle complex scenarios naturally (pair programming, emergencies, spikes)
+- Teach newer team members the principles behind the practices
+
+**The Beauty of SPARK:**
+The framework grows with you. It teaches better practices through experience, not through complexity. Simple teams can absolutely use SPARK - the more you use it, the more you'll grow with it.
+
+### Intelligent Adaptations You'll Learn
+
+As teams mature with SPARK, they naturally learn to handle complex scenarios:
+
+**Pair Programming:**
+- Treat the pair as single owner (@alice-bob)
+- One card counts for both people - they're 100% focused on one item
+- Honors the spirit of WIP limit: prevents multitasking, encourages focus
+
+**Emergency Work:**
+- Use built-in escape hatch: temporarily break WIP limit for critical issues
+- Make exceptions visible (e.g., "Emergency" swimlane)
+- Return to normal flow once resolved
+
+**Exploratory Spikes:**
+- Frame in terms of risk reduction for OKRs
+- "Done" = knowledge gained, decisions made, risks clarified
+- Still links to Key Results by de-risking them
+
+### Anti-Pattern Warning
+
+❌ **Following rules so literally that you subvert the principles**
+
+Examples:
+- Sequential handoff disguised as "pair programming"
+- Refusing urgent work because "WIP limit doesn't allow it"
+- Rejecting valuable research because it's "not shippable"
+
+Remember: SPARK is your teacher, not your judge. Learn from mistakes, adapt through retrospectives, and always serve the principles.
 
 ---
 
@@ -102,14 +160,51 @@ KR2: 20% month-over-month growth
 KR3: Customer acquisition cost < $100
 ```
 
-### 2. The SPARK Board
+### 2. Forecasting Without Estimation
+
+In SPARK, we don't "estimate" tasks with story points. Instead, we use lightweight forecasting to answer business questions about timelines and scope, while relying on radical decomposition to ensure a predictable flow of daily work.
+
+The process flows from the big picture down to the small details:
+
+**1. The Themes Roadmap (12-18 Month View)**
+
+This is your high-level strategic narrative. It communicates long-term direction to stakeholders.
+
+- **What it is:** A list of broad business outcomes, not features (e.g., "Improve onboarding experience," "Increase platform reliability," "Expand into new markets")
+- **How to forecast:** Use Quarters as the unit of measure. This is about general timing, not precise duration
+- **Example:** "We plan to focus on the onboarding experience in Q2, and we are confident it will be our primary theme by Q3"
+
+**2. Larger Initiatives on the Backlog (1-3 Month View)**
+
+When a Theme is ready to be considered for the next quarter, it's broken down into larger initiatives.
+
+- **What it is:** A significant piece of work that will deliver a Key Result (e.g., "Build the new user checklist," "Migrate the primary database")
+- **How to forecast:** Use T-Shirt Sizes based on weeks of effort:
+  - **S (Small):** ≈ 1-2 weeks
+  - **M (Medium):** ≈ 3-6 weeks
+  - **L (Large):** ≈ 7-12 weeks (a full quarter)
+  - **XL (X-Large):** Too big! This initiative must be broken down further before it can be worked on
+
+**3. The Forecast Conversation**
+
+Use Confidence Ranges to set realistic expectations. This is the primary tool for answering "When will it be done?"
+
+- **Example:** After sizing an initiative as a "Medium," the conversation with a stakeholder should sound like this: "This looks like a Medium-sized initiative, so we believe it will take around 3 to 6 weeks to complete. We'll know more once we start breaking it down."
+
+**Key Principles for SPARK Forecasting:**
+- **Decomposition Over Estimation:** For daily work, decompose tasks to be less than one week. This is the ultimate key to predictable flow
+- **Communicate Uncertainty:** Always give ranges, not single dates. A forecast is an educated guess, not a promise
+- **Track Throughput, Not Velocity:** Measure your team's historical throughput (number of work items completed per week) to inform your forecasts. If your team completes 3-5 items per week, a Large initiative will require breaking down into many smaller tasks
+- **Forecast Outcomes, Not Outputs:** Frame your forecasts around delivering value (e.g., "The new onboarding flow should be live in 4-6 weeks"), not just finishing tasks
+
+### 3. The SPARK Board
 
 A simple 4-column visual board:
 
 ```
 ┌─────────────┬──────────────┬──────────────┬─────────────┐
 │   BACKLOG   │ IN PROGRESS  │    REVIEW    │    DONE     │
-│             │   (Max: 1)   │              │             │
+│             │ (WIP Limit: 1 per person) │              │             │
 ├─────────────┼──────────────┼──────────────┼─────────────┤
 │ Feature A   │ Feature B    │ Feature C    │ Feature Z   │
 │ KR1: +10%   │ @alice       │ @bob         │ Shipped ✓   │
@@ -120,10 +215,29 @@ A simple 4-column visual board:
 ```
 
 **Guidelines:**
-- WIP limit of 1 per person in "In Progress" column only
+- **WIP limit of 1 per person** in "In Progress" column only
 - Once task moves to "Review", person can immediately pull next task
 - Items should link to a Key Result
-- "Done" means shipped to real users
+- "Done" means the work item has delivered its intended value. For features, this means shipped to real users. For other work like spikes or technical debt, this means the learning is captured or the system is improved
+
+**Why WIP Limit of 1:**
+- **Accountability**: Clear answer to "who's working on this?"
+- **Focus**: Prevents multitasking and context switching
+- **Flow**: Exposes bottlenecks and forces the team to resolve them
+- **Learning**: Requires breaking work down into small, valuable pieces
+
+**Handling Real-World Complexity:**
+
+SPARK's WIP limit is a discipline, not a dogmatic rule. Here's how mature teams handle common scenarios:
+
+| Scenario | The SPARK Solution | Principle Applied |
+|----------|-------------------|-------------------|
+| **Pair Programming** | The **pair becomes the single owner** (`@alice-bob`). The card is their shared focus. | **Focus**: Two minds, one task. This is the ideal state of focus. |
+| **Emergency Work** | **Use the escape hatch.** Pull the emergency item immediately and make the exception **visible** on the board. | **Outcome over Process**: The flow of customer value is more important than rigid rule compliance. |
+| **External Blocker**<br/>(e.g., waiting for an API key from another team) | The task is **truly blocked**. Move it back to the Backlog with rich context explaining the blocker. Pull new work. | **Minimize Waste**: Prevents idle time. The context ensures work can be resumed by anyone once unblocked. |
+| **Task Requires Multiple Skills**<br/>(e.g., frontend/backend work) | **Keep the flow going.** The primary owner pulls the other person in. This can be done via:<br/>1. **Swarming:** Bob helps Alice finish her part so the card can keep moving.<br/>2. **Pairing:** Alice and Bob pair up to complete the task together under a single owner (`@alice-bob`). | **Flow**: Avoids the waste of handoffs and queues. The goal is to get the item to "Done," not just to finish your part. |
+
+**The Key Takeaway:** The WIP limit is a tool to force a crucial conversation: **"What is the fastest way to get *this specific item* to Done?"** Sometimes the answer is to focus alone, sometimes it's to pair up, and sometimes it's to pause and swarm a blocker. SPARK's context preservation ensures that no matter the path, knowledge and accountability are never lost.
 
 **Task Flow and Ownership:**
 - Single owner while in "In Progress"
@@ -136,7 +250,7 @@ A simple 4-column visual board:
 
 #### Proposal Board
 
-A companion board for team suggestions:
+To protect the main backlog's focus, all new ideas and non-urgent bugs first enter the Proposal Board. This is a companion board for team suggestions:
 
 ```
 ┌─────────────┬──────────────┬──────────────┐
@@ -167,7 +281,7 @@ A companion board for team suggestions:
 - Some teams distinguish between "quick wins" and "exploration" proposals
 - Adapt based on your team's proposal volume and culture
 
-### 3. Work Items
+### 4. Work Items
 
 Each work item contains:
 - **What:** Clear description of the deliverable
@@ -211,7 +325,7 @@ This means ANY team member can pick up ANY task and understand:
 
 **Result**: No work is ever "lost" and knowledge compounds across iterations.
 
-### 4. The SPARK Week
+### 5. The SPARK Week
 
 **Monday (15 min)**
 - Check-in: Everyone posts their focus for the week
@@ -236,20 +350,28 @@ This means ANY team member can pick up ANY task and understand:
 
 **Total:** < 2 hours/week of meetings
 
-### 5. Roles
+### 6. Roles & Responsibilities
+
+SPARK has one core role, the Product Owner, but thrives when responsibilities are distributed across the team.
 
 **Product Owner**
-- Sets OKRs
-- Maintains backlog
-- Removes blockers
+- Sets the strategic direction with OKRs and the Themes Roadmap
+- Maintains the final say on backlog prioritization and scope
+- Focuses on removing business and external blockers
 
-**Team Members**
-- Pull work when ready
-- Ship to production
-- Share learnings
-- Propose work items via proposal board
+**Team Members (Shared Responsibilities)**
+- Pull work when ready, ship to production, and share learnings
+- Own internal blocker resolution: Team members unblock each other on technical issues first
+- Manage proposals: The team collectively reviews proposals during the Friday retro
 
-**No other roles required.**
+**Optional: Tech Lead**
+
+To further empower the team, one member may act as a "first among equals" to guide technical strategy. This is not a formal manager role. Their responsibilities include:
+- Guiding technical decisions and architecture
+- Mentoring other team members
+- Serving as the final point of escalation for internal technical blockers
+
+**Anti-Pattern Warning:** A Product Owner trying to handle all blockers and technical decisions will become the primary constraint. Successful SPARK teams distribute responsibility.
 
 ---
 
@@ -314,32 +436,18 @@ Month 4: Full SPARK implementation
 
 ## Common Patterns & Solutions
 
-### Anti-Patterns to Avoid
-
-| Anti-Pattern | Why It Hurts | Solution |
-|-------------|-------------|----------|
-| **Workspace >10 people** | Dilutes focus, slows decisions | Split into multiple workspaces |
-| **Multiple objectives per workspace** | Creates confusion, context overlap | One workspace = one objective |
-| **Scaling by adding people** | Causes friction, meeting overhead | Add new pods, not more people |
-| **Centralized bottlenecks** | Defeats fast-flow benefits | Maintain pod autonomy |
-| **Multiple boards per workspace** | Unclear ownership, competing priorities | One workspace = one board |
-
-### Solutions to Common Patterns
-
-### Pattern: Too Many Blockers
-**Solution:** Product Owner dedicates 50% time to unblocking
-
-### Pattern: Work Items Too Big
-**Solution:** If it takes > 1 week, break it down
-
-### Pattern: Losing Sight of OKRs
-**Solution:** Every work item must tag a KR
-
-### Pattern: Review Bottleneck
-**Solution:** Implement "Review SLA" - max 24 hours
-
-### Pattern: Knowledge Silos
-**Solution:** Friday retros include mini tech talks
+| ✅ Success Patterns | ❌ Anti-Patterns |
+|-------------------|------------------|
+| **Keep pods under 10 people** - Maintains focus and fast decision-making | **Workspace >10 people** - Dilutes focus, slows decisions |
+| **One workspace = one objective** - Creates clear focus and eliminates context overlap | **Multiple objectives per workspace** - Creates confusion, context overlap |
+| **Scale by adding new pods** - Maintains autonomy and avoids coordination overhead | **Scaling by adding people** - Causes friction, meeting overhead |
+| **Maintain pod autonomy** - Preserves fast-flow benefits and ownership | **Centralized bottlenecks** - Defeats fast-flow benefits |
+| **One workspace = one board** - Ensures clear ownership and priorities | **Multiple boards per workspace** - Unclear ownership, competing priorities |
+| **Distributed blocker resolution** - Whole team owns unblocking, PO focuses on external blockers | **PO handles all blockers** - Creates superhuman PO bottleneck |
+| **Break work down to <1 week** - Ensures predictable flow and easy estimation | **Work items too big** - Creates unpredictable delivery and estimation problems |
+| **Every work item links to KR** - Maintains outcome focus and strategic alignment | **Work disconnected from OKRs** - Leads to feature factory mentality |
+| **Review SLA of 24 hours max** - Prevents review bottlenecks and maintains flow | **Slow or inconsistent reviews** - Creates flow disruption and context loss |
+| **Share knowledge regularly** - Friday retros include mini tech talks and learning | **Knowledge silos** - Information hoarding prevents team growth and creates bus factor risks |
 
 ---
 
@@ -422,6 +530,73 @@ Cross-Workspace Coordination:
            └──── Weekly Sync ────────────┘
 ```
 
+### Managing Cross-Pod Dependencies
+
+While pod autonomy is ideal, dependencies between pods are inevitable as organizations scale. The key is to manage them without destroying the focus and flow that makes SPARK effective.
+
+The SPARK approach is to treat dependencies as formal agreements between autonomous teams, not as informal requests. Manage them transparently and resolve conflicts quickly.
+
+#### 1. Dependency Negotiation (During Quarterly Planning)
+
+Dependencies must be identified and negotiated *before* the quarter begins. There are two primary patterns:
+
+**Dependency Contracts (For clear deliverables):**
+When Pod A needs a specific deliverable from Pod B, they create a simple contract during OKR planning. It should define:
+- **What:** The specific deliverable
+- **When:** The target delivery timeline
+- **Why:** Which of Pod A's KRs it unblocks
+- **Success Criteria:** How both pods will know it's truly "done"
+
+**Shared Key Results (For deep collaboration):**
+For the most critical, interdependent work, the pods should create a Shared KR. This makes both pods jointly accountable for the same business outcome.
+- *Growth Pod KR:* `Acquire 1000 new users via the new onboarding flow`
+- *Platform Pod KR:* `Enable Growth Pod to acquire 1000 new users by delivering the new onboarding flow infrastructure`
+
+#### 2. Operational Workflow (During the Quarter)
+
+Use a **Dependency Card** on the requesting pod's board to track the agreement.
+
+- **Owned By:** The requesting pod (the team that *needs* the work)
+- **Status Flow:** `Requested` → `In Progress` → `Delivered` → `Verified`
+- **Updates:** The providing pod is responsible for communicating status changes. The requesting pod is responsible for verifying the final delivery against the success criteria.
+
+**Example Dependency Card:**
+
+| Field | Value |
+|-------|-------|
+| **Title** | User Analytics API for Growth Dashboard |
+| **Owner** | Growth Pod (`@alice`) |
+| **Provider** | Platform Pod (`@bob`'s task `PLAT-123`) |
+| **Status** | `In Progress` |
+| **Contract** | API endpoints for user signup flow, delivery by Week 3 |
+| **Success** | Growth Pod can track conversion funnel in the dashboard |
+
+**Best Practice:** The Provider field should ideally link to the specific person and the task ID on the other pod's board for maximum clarity.
+
+#### 3. Escalation Protocol
+
+When pod leads can't resolve a dependency conflict:
+
+**Level 1: Direct Negotiation (2 business days max)**
+Pod leads negotiate, focusing on the question: "Which path delivers more immediate customer value relative to our OKRs?"
+
+**Level 2: Dependency Arbiter (1 business day max)**
+Escalate to a pre-designated shared manager or "dependency arbiter." They review the OKR impact and make a binding priority call.
+
+**Level 3: Business Impact Assessment (Rarely needed)**
+For mission-critical conflicts, leadership reviews the overall business impact, which may require adjusting a pod's quarterly OKRs.
+
+**Key Principle:** A fast decision is better than a perfect one. A blocked dependency hurts everyone.
+
+#### 4. Common Patterns
+
+| ✅ Success Patterns | ❌ Anti-Patterns to Avoid |
+|-------------------|-------------------------|
+| First, try to split work to **eliminate** dependencies | Creating dependencies when a different work split would avoid it |
+| Negotiate dependencies **upfront** during OKR planning | Ignoring dependencies until they become a crisis |
+| Use **lightweight contracts** and visible Dependency Cards | Creating heavy administrative overhead or duplicate work tracking |
+| **Resolve conflicts quickly** through the escalation protocol | Letting a centralized person or committee manage all dependencies |
+
 ---
 
 ## Handling Disruptions
@@ -460,19 +635,26 @@ When third-party services break:
 
 ## FAQ
 
-**Q: What about dependencies?**
-A: Use a simple escalation pattern:
-- **Level 1 (Team)**: Direct conversation between team members
-- **Level 2 (Visible)**: Create a dependency card on boards to track cross-team work  
-- **Level 3 (Escalated)**: Product Owner/leader actively manages external blockers with daily updates
-
-Make dependencies visible early and have clear ownership for resolution.
 
 **Q: How do we estimate?**
-A: You don't. Break work small enough (1 week maximum) that estimation is unnecessary. This decomposition skill requires practice but is essential for SPARK success.
+A: SPARK replaces detailed estimation with two distinct practices: radical decomposition for daily work and lightweight forecasting for strategic planning.
+
+**For Individual Tasks:** The rule is decomposition, not estimation. Every task pulled from the backlog should be small enough to be completed in less than one week. At this level, detailed estimates are unnecessary waste.
+
+**For Larger Initiatives:** To aid in business planning for bigger pieces of work, use lightweight forecasts to communicate the general scale and uncertainty:
+- **T-Shirt Sizes:** For a rough sense of magnitude (e.g., S ≈ 1-2 weeks, M ≈ 3-6 weeks, L ≈ A full quarter)
+- **Confidence Ranges:** For more defined initiatives (e.g., "We believe this will take 4-6 weeks to complete")
+
+**Crucially, a forecast is a communication tool to aid in planning, not a delivery promise.** Its purpose is to provide business context without the wasteful ceremony of story-pointing. The most essential skill for predictable delivery in SPARK remains the team's ability to decompose work effectively.
 
 **Q: What about roadmaps?**
-A: OKRs are your roadmap. Trust emergence for specific features.
+A: SPARK replaces a traditional feature-based roadmap with a more flexible two-part system:
+
+**The Themes Roadmap (The "What"):** This is your high-level, strategic narrative for the next 6-18 months. It communicates direction to stakeholders by focusing on the customer problems or business opportunities we will tackle.
+- **Example Theme:** "Reduce new user time-to-value"
+
+**Quarterly OKRs (The "How"):** This is your tactical execution plan for the next 3 months. OKRs define how we will measure our success in tackling a theme for that quarter.
+- **Example OKR for the Theme above:** Objective: Create a frictionless onboarding experience. Key Result: Increase Week 1 user activation rate from 20% to 40%
 
 **Q: Can we keep using release cycles?**
 A: Yes. SPARK's small work breakdown makes this easy - work flows continuously but releases are batched. Teams ship when features are ready within the cycle.
@@ -484,7 +666,7 @@ A: Yes. Works for 1-10 people as-is. Pod structure handles 10-50 people.
 A: Any board works - digital kanban tools, sticky notes, whiteboard.
 
 **Q: What skills does our team need?**
-A: Work decomposition (breaking tasks into <1 week pieces) and an effective Product Owner who can prioritize, remove blockers, and communicate strategy. These skills develop with practice.
+A: Work decomposition (breaking tasks into <1 week pieces) and a team culture of shared ownership, guided by a Product Owner who focuses on strategy and empowers the team to manage its own flow. These skills develop with practice.
 
 **Q: How do we handle multiple priorities?**
 A: OKRs force prioritization. If everything is urgent, nothing is urgent.
@@ -609,7 +791,7 @@ Use this diagnostic checklist to assess your SPARK implementation:
 ### Tomorrow  
 1. Define current quarter OKRs with your team
 2. Move existing work into SPARK backlog format
-3. Apply WIP limit of 1 per person (adjustable when justified)
+3. Apply WIP limit of 1 per person (refer to the 'Principles Over Rules' section for handling exceptions like pairing)
 
 ### This Week
 1. Start Monday/Wednesday/Friday ceremonies
