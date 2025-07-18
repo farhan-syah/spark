@@ -65,9 +65,17 @@ Each SPARK workspace contains exactly one board focused on a single Objective (O
 
 ### Scaling Guidance
 
+> **🎯 Sweet Spot: 5-10 people per pod for maximum flow and autonomy**
+
 - **1-10 people**: Single workspace with one objective
 - **10+ people**: Multiple workspaces (pod structure), each with focused objective
 - **Cross-workspace coordination**: Pod leads sync weekly, but each workspace maintains independent focus
+
+**Team Size Considerations**:
+- **Solo developers (1 person)**: SPARK provides structure for personal productivity and learning
+- **Small teams (2-4 people)**: Excellent for tight coordination and rapid iteration
+- **Optimal teams (5-10 people)**: Best balance of diverse skills, efficient communication, and sustainable workload
+- **Beyond 10 people**: Use pod structure to maintain SPARK's core benefits
 
 ---
 
@@ -339,6 +347,8 @@ Month 4: Full SPARK implementation
 
 When teams grow beyond 10 people, use a pod structure with **separate workspaces**:
 
+> **🚀 Each pod operates like a mini-startup**: Fully autonomous, self-organizing, and accountable for its objective. Pod leads are facilitators, not bottlenecks.
+
 **Pod Organization (Multiple Workspaces):**
 ```
 Growth Workspace (Pod Alpha - 5 people):
@@ -361,6 +371,56 @@ Cross-Workspace Coordination:
 ```
 
 **Key Principle**: Each pod = separate workspace with its own board and OKR. This maintains the "One Workspace = One Board = One Objective" architecture while enabling organizational scaling.
+
+### When to Split Your Pod
+
+**Clear Signals for Creating New Pods:**
+- ✅ Team exceeds 10 people
+- ✅ Multiple objectives competing for attention on same board
+- ✅ Board feels cluttered or confusing
+- ✅ Discussions slow down or people feel out of the loop
+- ✅ Meetings are taking too long or feel unfocused
+- ✅ Team members don't understand all work items on the board
+
+**How to Split:**
+1. **Identify the new objective** - What distinct outcome needs focus?
+2. **Create new workspace** - Set up separate board and OKR
+3. **Move relevant work** - Transfer related items to new board
+4. **Assign pod lead** - Designate someone to facilitate the new pod
+5. **Establish coordination** - Set up regular sync with other pods
+
+### Visual: Healthy vs Unhealthy Scaling
+
+**❌ Unhealthy: Growing Single Pod**
+```
+┌─────────────────────────────────────────────┐
+│ Marketing Workspace (15 people!)           │
+│ OKR: Growth + Retention + Platform         │
+│ ┌─────────────────────────────────────────┐ │
+│ │ Cluttered Board                         │ │
+│ │ Growth tasks │ Platform │ Retention    │ │
+│ │ SEO feature  │ API bugs │ Onboarding   │ │
+│ │ Ad campaign  │ Database │ Email flows  │ │
+│ │ @12 people working on different goals   │ │
+│ └─────────────────────────────────────────┘ │
+└─────────────────────────────────────────────┘
+```
+
+**✅ Healthy: Independent Pods**
+```
+┌─────────────────────────┐  ┌─────────────────────────┐
+│ Growth Pod (6 people)   │  │ Retention Pod (5 people)│
+│ OKR: Customer Acquisition│  │ OKR: User Retention     │
+│ ┌─────────────────────┐ │  │ ┌─────────────────────┐ │
+│ │ Focused Board       │ │  │ │ Focused Board       │ │
+│ │ SEO feature         │ │  │ │ Onboarding flow     │ │
+│ │ Ad campaign         │ │  │ │ Email sequences     │ │
+│ │ Landing pages       │ │  │ │ User analytics      │ │
+│ └─────────────────────┘ │  │ └─────────────────────┘ │
+└─────────────────────────┘  └─────────────────────────┘
+           │                            │
+           └──── Weekly Sync ────────────┘
+```
 
 ---
 
@@ -434,6 +494,108 @@ A: Track it like features. Dedicate capacity to debt reduction during retros.
 
 **Q: Should we use the AI enhancements?**
 A: Only if they add value to your team. The context fields help human developers as much as AI agents - use them if better documentation and relationship tracking would reduce your rework. Consider starting with Level 0 (pure SPARK) and experimenting gradually. Many successful teams ignore AI features entirely and focus on core SPARK principles. Choose what fits your team's needs and comfort level.
+
+---
+
+## How SPARK Differs from Other Frameworks
+
+| Framework | Work Flow | Planning | Roles | Scaling | Focus |
+|-----------|-----------|----------|-------|---------|--------|
+| **SPARK** | Continuous pull | OKRs (quarterly) | Minimal (PO + Team) | Independent pods | Outcomes + Learning |
+| **Scrum** | Sprint batches | Story points + sprints | Multiple (SM, PO, Team) | Coordination layers | Process compliance |
+| **Kanban** | Continuous flow | No planning | Minimal | Board replication | Workflow visualization |
+| **Waterfall** | Sequential phases | Upfront planning | Defined roles | Functional departments | Phase completion |
+| **SAFe** | Program increments | Multi-level planning | Extensive hierarchy | Coordination frameworks | Enterprise alignment |
+
+**SPARK's Unique Approach:**
+- **Radical autonomy**: Each pod is fully self-contained
+- **Outcome obsession**: Every work item must advance a Key Result  
+- **Knowledge compounds**: Context preservation across all work
+- **Scale by splitting**: Add pods, never add complexity
+
+---
+
+## Is SPARK Working for You?
+
+Use this diagnostic checklist to assess your SPARK implementation:
+
+### ✅ Health Check: Signs SPARK is Working
+
+**Flow Indicators:**
+- [ ] Work moves smoothly from Backlog → In Progress → Review → Done
+- [ ] Team members pull work when ready (not when assigned)
+- [ ] Cycle time is predictable and improving
+- [ ] "Done" means shipped to real users
+
+**Team Indicators:**
+- [ ] Everyone understands all work on the board
+- [ ] Meetings are short and focused (<15 min for check-ins)
+- [ ] People feel autonomous and empowered
+- [ ] Learning happens every week and is captured
+
+**Outcome Indicators:**
+- [ ] OKRs are driving daily decisions
+- [ ] Every work item clearly links to a Key Result
+- [ ] Team is hitting quarterly objectives
+- [ ] Customer impact is visible and measurable
+
+### 🚨 Red Flags: Signs You Need to Adjust
+
+**Flow Problems:**
+- [ ] Work gets stuck in Review for days
+- [ ] People are multitasking or working on multiple items
+- [ ] Board feels cluttered or confusing
+- [ ] "Done" items aren't reaching customers
+
+**Team Problems:**
+- [ ] Meetings are long or feel unproductive
+- [ ] People feel overloaded or stressed
+- [ ] Team members don't understand others' work
+- [ ] Decisions are slow or unclear
+
+**Outcome Problems:**
+- [ ] OKRs feel disconnected from daily work
+- [ ] Work items don't clearly link to objectives
+- [ ] Team is missing quarterly targets
+- [ ] Customer impact is unclear
+
+### 💡 Quick Fixes
+- **Too many red flags?** Consider splitting your pod or refocusing on core SPARK principles
+- **Flow issues?** Review WIP limits and "Done" definition
+- **Team issues?** Ensure everyone understands the board and can pull work
+- **Outcome issues?** Reconnect work items to OKRs and customer impact
+
+---
+
+## Troubleshooting Common Issues
+
+### "People are multitasking and ignoring WIP limits"
+**Root cause**: Work items are too large or unclear
+**Solution**: Break work into smaller pieces (<1 week each), clarify acceptance criteria
+
+### "Board is cluttered and confusing"
+**Root cause**: Multiple objectives on one board, or work items lack clear ownership
+**Solution**: Split pod if multiple objectives, ensure every item has clear "what/why/who"
+
+### "Meetings are taking too long"
+**Root cause**: Too many people, or discussions are about details not decisions
+**Solution**: Keep meetings to core team only, use async for updates, focus on blockers
+
+### "Work gets stuck in Review"
+**Root cause**: Unclear "Done" definition or reviewer unavailability
+**Solution**: Define clear acceptance criteria, implement 24-hour Review SLA
+
+### "Team feels disconnected from OKRs"
+**Root cause**: Work items don't clearly link to Key Results
+**Solution**: Every backlog item must tag a KR, remove items that don't advance objectives
+
+### "People don't understand others' work"
+**Root cause**: Complex or siloed work items
+**Solution**: Break work into smaller pieces, add context documentation, pair more often
+
+### "Nothing feels 'Done'"
+**Root cause**: "Done" doesn't mean shipped to users
+**Solution**: Redefine "Done" as "in production and measured", track customer impact
 
 ---
 
