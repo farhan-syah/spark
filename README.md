@@ -2,7 +2,7 @@
 
 > Swift Product Acceleration through Rapid Knowledge
 
-A lightweight project management framework for high-velocity teams that need to move fast while maintaining quality.
+A lightweight project management framework for solo developers and high-velocity teams (1-10 people) that need to move fast while maintaining quality.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.0.0-green.svg)](SPARK.md)
@@ -17,7 +17,7 @@ Traditional project management frameworks assume predictable environments. **SPA
 - **Pull-based work** instead of assignment-heavy planning
 - **Context preservation** - Knowledge compounds across task iterations
 - **Clear workspace architecture** - One workspace, one board, one objective prevents organizational chaos
-- **Simple scaling** from 1-50 people with pod structure
+- **Smart scaling** - 5-10 people per pod, scale by adding independent pods (not people)
 
 ## Quick Start
 
@@ -35,17 +35,13 @@ Traditional project management frameworks assume predictable environments. **SPA
 
 ## What's Different?
 
-### vs. Scrum
-- **Continuous flow** instead of 2-week sprints
-- **Pull-based work** instead of sprint planning
-- **Context preservation** - Knowledge accumulates across iterations
-- **Async ceremonies** instead of daily standups
+**SPARK's Unique Approach:**
+- **Radical autonomy** - Each pod is fully self-contained
+- **Outcome obsession** - Every work item must advance a Key Result  
+- **Knowledge compounds** - Context preservation across all work
+- **Scale by splitting** - Add pods, never add complexity
 
-### vs. Kanban
-- **OKRs provide direction** instead of just visualizing flow
-- **WIP limits enforced** to prevent overcommitment
-- **Built-in learning** through weekly retrospectives
-- **Optional AI development support** (Level 0-3 adoption)
+See the [comprehensive framework comparison](SPARK.md#how-spark-differs-from-other-frameworks) for detailed differences vs. Scrum, Kanban, Waterfall, and SAFe.
 
 ## Key Features
 
@@ -73,10 +69,13 @@ Flow-based recognition focusing on throughput, quality, learning contributions, 
 - [Visual Guide](guides/Visual-Guide.md) - Diagrams and examples
 - [Teaching Guide](guides/Teaching-Guide.md) - Transition from other frameworks
 - [Transitioning to SPARK](SPARK.md#transitioning-to-spark) - Week-by-week guides
+- [Is SPARK Working?](SPARK.md#is-spark-working-for-you) - Diagnostic checklist and health check
 
 ### Advanced Features
 - [AI Development Support](SPARK.md#advanced-considerations) - Optional AI-assisted features
 - [Pod Structure](SPARK.md#scaling-beyond-10-people) - Scaling beyond 10 people
+- [When to Split Your Pod](SPARK.md#when-to-split-your-pod) - Clear signals and step-by-step process
+- [Troubleshooting Guide](SPARK.md#troubleshooting-common-issues) - Common problems and solutions
 - [Crisis Protocols](protocols/) - Handling startup disruptions
 - [Recognition System](SPARK.md#recognition-and-rewards) - Flow-based team recognition
 
