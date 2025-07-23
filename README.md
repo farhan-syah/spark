@@ -17,11 +17,12 @@ By combining principles from Agile, Lean, and modern product thinking, SPARK del
 - **Scalable Autonomy** - Provides a clear model for organizational growth that preserves the speed and agility of a small team
 
 **Key Features:**
+- **Framework positioning** - Clear guidance on when SPARK fits vs. when to use alternatives
 - **Minimal meeting overhead** (less than 2 hours/week)
-- **Forecasting without estimation** - Lightweight planning that satisfies business needs
-- **Context preservation** - Knowledge compounds across task iterations
-- **Cross-pod dependencies** - Structured approach to managing team interdependencies
-- **Smart scaling** - Pod structure that scales by replication, not complexity
+- **Forecasting without estimation** - Decomposition and lightweight planning approach
+- **Context preservation** - Knowledge compounds across task iterations, preventing information loss
+- **Principles over rules** - WIP limits as teaching tools, intelligent adaptations for complex scenarios
+- **Smart scaling** - Solo developers to large organizations with autonomous pod structure
 
 ## Quick Start
 
@@ -70,8 +71,10 @@ Flow-based recognition focusing on throughput, quality, learning contributions, 
 - **[FAQ](SPARK.md#faq)** - Common questions and implementation guidance
 
 ### Getting Started
+- [Who Should Use SPARK](SPARK.md#who-should-use-spark) - Framework fit assessment
+- [When NOT to Use SPARK](SPARK.md#when-not-to-use-spark) - Clear exclusion criteria
 - [Visual Guide](guides/Visual-Guide.md) - Diagrams and examples
-- [Teaching Guide](guides/Teaching-Guide.md) - Transition from other frameworks
+- [Teaching Guide](guides/Teaching-Guide.md) - Transition from other frameworks  
 - [Transitioning to SPARK](SPARK.md#transitioning-to-spark) - Week-by-week guides
 - [Is SPARK Working?](SPARK.md#is-spark-working-for-you) - Diagnostic checklist and health check
 
@@ -79,10 +82,9 @@ Flow-based recognition focusing on throughput, quality, learning contributions, 
 - [Forecasting Without Estimation](SPARK.md#forecasting-without-estimation) - Themes roadmap and lightweight forecasting
 - [Cross-Pod Dependencies](SPARK.md#managing-cross-pod-dependencies) - Structured approach to team interdependencies
 - [AI Development Support](SPARK.md#advanced-considerations) - Optional AI-assisted features
-- [Pod Structure](SPARK.md#scaling-beyond-10-people) - Scaling by replication, not complexity
+- [Scaling Beyond 10 People](SPARK.md#scaling-beyond-10-people) - Pod structure and autonomous scaling
 - [When to Split Your Pod](SPARK.md#when-to-split-your-pod) - Clear signals and step-by-step process
 - [Troubleshooting Guide](SPARK.md#troubleshooting-common-issues) - Common problems and solutions
-- [Crisis Protocols](protocols/) - Handling startup disruptions
 - [Recognition System](SPARK.md#recognition-and-rewards) - Flow-based team recognition
 
 ### Community
